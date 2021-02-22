@@ -52,6 +52,15 @@
               "id": "e0499bf6-a337-4b92-bb28-18389a4702a5",
               "z": 2,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "title": "Atacker pretends to be AGUI",
+                  "mitigation": "Certificates management"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -253,11 +262,43 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 470,
+                "y": 1
+              },
+              "target": {
+                "x": 417,
+                "y": 315
+              },
+              "vertices": [],
+              "id": "9166a886-2da6-4b04-8aa9-bb181c5e6bda",
+              "z": 8,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 838,
+                "y": 11
+              },
+              "target": {
+                "x": 777,
+                "y": 310
+              },
+              "vertices": [],
+              "id": "6040a8c1-2da5-4e21-bd5c-d43ad00a707f",
+              "z": 9,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 609,
+          "height": 1437.094482421875,
           "width": 1038
         }
       }
