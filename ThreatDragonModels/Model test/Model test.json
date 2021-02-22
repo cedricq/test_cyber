@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "title": "Model test",
+    "owner": "cedricq"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "model_1",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
